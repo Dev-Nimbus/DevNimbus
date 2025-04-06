@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | DEVNIMBUS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- Animated Preloader -->
+    <div class="preloader">
+        <div class="preloader-container">
+            <div class="preloader-logo">DEVNIMBUS</div>
+            <div class="preloader-bar-container">
+                <div class="preloader-bar"></div>
+            </div>
+            <div class="preloader-text">LOADING</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-particles"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo">
+                <span class="logo-text">DEV<span class="highlight">NIMBUS</span></span>
+                <div class="logo-glow"></div>
+            </div>
+            <div class="logo-tagline">EST. 2023</div>
+        </div>
+
+        <div class="nav-toggle">
+            <div class="nav-toggle-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <span class="logo-img" >
+            <img src="logo.png" alt="">
+        </span>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Portfolio Hero Section -->
+        <section class="portfolio-hero">
+            <div class="portfolio-hero-content">
+                <h1 class="portfolio-hero-title">
+                    <span class="text-animate">Our</span>
+                    <span class="text-animate delay-1">Portfolio</span>
+                </h1>
+                <p class="portfolio-hero-subtitle text-animate delay-2">
+                    Showcasing our most innovative digital experiences
+                </p>
+            </div>
+            <div class="portfolio-hero-visual">
+                <div class="portfolio-hero-shape"></div>
+                <div class="portfolio-hero-circuit"></div>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter">
+            <div class="filter-container">
+                <div class="filter-title">Filter Projects:</div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI Integration</button>
+                    <button class="filter-btn" data-filter="ux">Immersive UX</button>
+                    <button class="filter-btn" data-filter="advanced">Advanced Development</button>
+                    <button class="filter-btn" data-filter="interactive">Interactive Systems</button>
+                    <button class="filter-btn" data-filter="vr">VR Experiences</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid">
+            <div class="grid-container">
+                <!-- NeoVerse Platform -->
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">NeoVerse Platform</h3>
+                                <p class="portfolio-category">AI Integration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">NeoVerse Platform</h3>
+                        <p class="portfolio-description">
+                            A revolutionary platform that merges artificial intelligence with immersive user experiences, 
+                            enabling businesses to create personalized digital environments for their customers.
+                        </p>
+                        <a href="#neoverse" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Dynamic Interface -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">Dynamic Interface</h3>
+                                <p class="portfolio-category">UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">Dynamic Interface</h3>
+                        <p class="portfolio-description">
+                            Redefining user interaction through adaptive design principles, 
+                            creating interfaces that respond to user behavior in real-time.
+                        </p>
+                        <a href="#dynamic" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- SynthMind AI -->
+                <div class="portfolio-item" data-category="ai">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">SynthMind AI</h3>
+                                <p class="portfolio-category">AI Integration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">SynthMind AI</h3>
+                        <p class="portfolio-description">
+                            An advanced AI system that learns and adapts to user preferences, providing 
+                            personalized recommendations and insights across multiple platforms.
+                        </p>
+                        <a href="#synthmind" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- NexusVR -->
+                <div class="portfolio-item" data-category="vr">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">NexusVR</h3>
+                                <p class="portfolio-category">VR Experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">NexusVR</h3>
+                        <p class="portfolio-description">
+                            A virtual reality platform that connects users in shared immersive environments, 
+                            enabling collaborative work, social interaction, and entertainment experiences.
+                        </p>
+                        <a href="#nexusvr" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- AdvancedCalc -->
+                <div class="portfolio-item" data-category="advanced">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">AdvancedCalc</h3>
+                                <p class="portfolio-category">Advanced Development</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">AdvancedCalc</h3>
+                        <p class="portfolio-description">
+                            A computational platform leveraging advanced algorithms to solve complex problems 
+                            efficiently.
+                        </p>
+                        <a href="#advancedcalc" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- SmartAssist -->
+                <div class="portfolio-item" data-category="interactive">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">SmartAssist</h3>
+                                <p class="portfolio-category">Interactive Systems</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">SmartAssist</h3>
+                        <p class="portfolio-description">
+                            An intelligent interface system that enables intuitive control and communication 
+                            for industrial and consumer applications.
+                        </p>
+                        <a href="#smartassist" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- FlowUX -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">FlowUX</h3>
+                                <p class="portfolio-category">UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">FlowUX</h3>
+                        <p class="portfolio-description">
+                            A design system that incorporates fluid animations and micro-interactions to create 
+                            seamless, intuitive user experiences across digital platforms.
+                        </p>
+                        <a href="#flowux" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+
+                <!-- SecurePlus -->
+                <div class="portfolio-item" data-category="advanced">
+                    <div class="portfolio-visual">
+                        <div class="portfolio-image-container">
+                            <div class="portfolio-image-placeholder"></div>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <h3 class="portfolio-name">SecurePlus</h3>
+                                <p class="portfolio-category">Advanced Development</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3 class="portfolio-title">SecurePlus</h3>
+                        <p class="portfolio-description">
+                            A security system utilizing advanced cryptography to provide 
+                            strong encryption for sensitive data and communications.
+                        </p>
+                        <a href="#secureplus" class="portfolio-link view-project">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modal -->
+        <div class="project-modal">
+            <div class="modal-container">
+                <div class="modal-close">
+                    <div class="close-icon"></div>
+                </div>
+                <div class="modal-content">
+                    <!-- Content will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact CTA -->
+        <section class="contact-cta">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Create Your Next Project?</h2>
+                <p class="cta-text">Let's bring your vision to life with modern technology.</p>
+                <a href="contact.html" class="btn btn-primary">
+                    <span class="btn-text">Get In Touch</span>
+                    <span class="btn-icon"></span>
+                </a>
+            </div>
+            <div class="cta-visual">
+                <div class="cta-shape"></div>
+                <div class="cta-particles"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-text">DEV<span class="highlight">NIMBUS</span></span>
+                </div>
+                <p class="footer-tagline">Creating modern digital experiences</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <div class="social-icon linkedin"></div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon twitter"></div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon github"></div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon instagram"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-list">
+                    <li><a href="services.html#ai">AI Integration</a></li>
+                    <li><a href="services.html#ux">Immersive UX</a></li>
+                    <li><a href="services.html#advanced">Advanced Development</a></li>
+                    <li><a href="services.html#interactive">Interactive Systems</a></li>
+                    <li><a href="services.html#vr">VR Experiences</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3 class="footer-title">Contact Us</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon location"></div>
+                        <span class="contact-text">Tech Center, Digital District</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon email"></div>
+                        <span class="contact-text">hello@devnimbus.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon phone"></div>
+                        <span class="contact-text">+1 (555) 123-4567</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                &copy; 2024 DEVNIMBUS. All Rights Reserved.
+            </div>
+            <div class="footer-legal">
+                <a href="terms.html">Terms of Service</a>
+                <span class="separator">|</span>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

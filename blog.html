@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | DEVNIMBUS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- Animated Preloader -->
+    <div class="preloader">
+        <div class="preloader-container">
+            <div class="preloader-logo">DEVNIMBUS</div>
+            <div class="preloader-bar-container">
+                <div class="preloader-bar"></div>
+            </div>
+            <div class="preloader-text">LOADING</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-particles"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo">
+                <span class="logo-text">DEV<span class="highlight">NIMBUS</span></span>
+                <div class="logo-glow"></div>
+            </div>
+            <div class="logo-tagline">EST. 2025</div>
+        </div>
+
+        <div class="nav-toggle">
+            <div class="nav-toggle-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <span class="logo-img" >
+            <img src="logo.png" alt="">
+        </span>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Blog Hero Section -->
+        <section class="blog-hero">
+            <div class="blog-hero-content">
+                <h1 class="blog-hero-title">
+                    <span class="text-animate">Our</span>
+                    <span class="text-animate delay-1">Blog</span>
+                </h1>
+                <p class="blog-hero-subtitle text-animate delay-2">
+                    Insights, innovations, and inspiration from the digital frontier
+                </p>
+            </div>
+            <div class="blog-hero-visual">
+                <div class="blog-hero-shape"></div>
+                <div class="blog-hero-circuit"></div>
+            </div>
+        </section>
+
+        <!-- Blog Filter -->
+        <section class="blog-filter">
+            <div class="filter-container">
+                <div class="filter-title">Filter Articles:</div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+                    <button class="filter-btn" data-filter="ux">UX Design</button>
+                    <button class="filter-btn" data-filter="tech">Technology</button>
+                    <button class="filter-btn" data-filter="future">Future Trends</button>
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search articles...">
+                <button class="search-btn">
+                    <div class="search-icon"></div>
+                </button>
+            </div>
+        </section>
+
+        <!-- Blog Grid -->
+        <section class="blog-grid">
+            <div class="grid-container">
+                <!-- Article 1 -->
+                <div class="blog-article" data-category="ai">
+                    <div class="article-visual">
+                        <div class="article-image-container">
+                            <div class="article-image-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-category">AI & Machine Learning</div>
+                            <div class="article-date">June 10, 2025</div>
+                        </div>
+                        <h3 class="article-title">Understanding Neural Networks: A Beginner's Guide</h3>
+                        <p class="article-excerpt">
+                            Demystifying neural networks and how they're revolutionizing everything from image recognition to natural language processing.
+                        </p>
+                        <a href="blog-post.html" class="article-link">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="blog-article" data-category="ux">
+                    <div class="article-visual">
+                        <div class="article-image-container">
+                            <div class="article-image-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-category">UX Design</div>
+                            <div class="article-date">June 5, 2025</div>
+                        </div>
+                        <h3 class="article-title">The Psychology of Animation in User Interfaces</h3>
+                        <p class="article-excerpt">
+                            Exploring how thoughtful animations can enhance user experience, guide attention, and create emotional connections.
+                        </p>
+                        <a href="blog-post.html" class="article-link">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="blog-article" data-category="tech">
+                    <div class="article-visual">
+                        <div class="article-image-container">
+                            <div class="article-image-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-category">Technology</div>
+                            <div class="article-date">May 28, 2025</div>
+                        </div>
+                        <h3 class="article-title">Quantum Computing: What Developers Need to Know</h3>
+                        <p class="article-excerpt">
+                            A practical overview of quantum computing principles and how they'll impact software development in the coming years.
+                        </p>
+                        <a href="blog-post.html" class="article-link">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Article 4 -->
+                <div class="blog-article" data-category="future">
+                    <div class="article-visual">
+                        <div class="article-image-container">
+                            <div class="article-image-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-category">Future Trends</div>
+                            <div class="article-date">May 20, 2025</div>
+                        </div>
+                        <h3 class="article-title">The Rise of Digital Twins in Urban Planning</h3>
+                        <p class="article-excerpt">
+                            How virtual replicas of physical environments are transforming city planning, infrastructure development, and sustainability efforts.
+                        </p>
+                        <a href="blog-post.html" class="article-link">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Article 5 -->
+                <div class="blog-article" data-category="ai">
+                    <div class="article-visual">
+                        <div class="article-image-container">
+                            <div class="article-image-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-category">AI & Machine Learning</div>
+                            <div class="article-date">May 15, 2025</div>
+                        </div>
+                        <h3 class="article-title">Ethical Considerations in AI Development</h3>
+                        <p class="article-excerpt">
+                            Navigating the complex ethical landscape of artificial intelligence and ensuring responsible innovation.
+                        </p>
+                        <a href="blog-post.html" class="article-link">Read More</a>
+                    </div>
+                </div>
+
+                <!-- Article 6 -->
+                <div class="blog-article" data-category="ux">
+                    <div class="article-visual">
+                        <div class="article-image-container">
+                            <div class="article-image-placeholder"></div>
+                        </div>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <div class="article-category">UX Design</div>
+                            <div class="article-date">May 8, 2025</div>
+                        </div>
+                        <h3 class="article-title">Designing for Neurodiversity: Inclusive Digital Experiences</h3>
+                        <p class="article-excerpt">
+                            Creating interfaces that accommodate different cognitive styles and neurological conditions for truly universal design.
+                        </p>
+                        <a href="blog-post.html" class="article-link">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pagination -->
+        <section class="blog-pagination">
+            <div class="pagination-container">
+                <button class="pagination-btn prev-btn">
+                    <div class="pagination-icon prev-icon"></div>
+                    <span class="pagination-text">Previous</span>
+                </button>
+                <div class="pagination-numbers">
+                    <a href="#" class="pagination-number active">1</a>
+                    <a href="#" class="pagination-number">2</a>
+                    <a href="#" class="pagination-number">3</a>
+                    <span class="pagination-ellipsis">...</span>
+                    <a href="#" class="pagination-number">10</a>
+                </div>
+                <button class="pagination-btn next-btn">
+                    <span class="pagination-text">Next</span>
+                    <div class="pagination-icon next-icon"></div>
+                </button>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">Stay Updated</h2>
+                    <p class="newsletter-text">Subscribe to our newsletter for the latest insights and innovations.</p>
+                </div>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" class="newsletter-input" placeholder="Your email address">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">Subscribe</span>
+                            <span class="btn-icon"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-text">DEV<span class="highlight">NIMBUS</span></span>
+                </div>
+                <p class="footer-tagline">Pioneering the future of digital experiences</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link">
+                        <div class="social-icon linkedin"></div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon twitter"></div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon github"></div>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon instagram"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-title">Services</h3>
+                <ul class="footer-list">
+                    <li><a href="services.html#ai">AI Integration</a></li>
+                    <li><a href="services.html#ux">Immersive UX</a></li>
+                    <li><a href="services.html#advanced">Advanced Development</a></li>
+                    <li><a href="services.html#interactive">Interactive Systems</a></li>
+                    <li><a href="services.html#vr">VR Experiences</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3 class="footer-title">Contact Us</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon location"></div>
+                        <span class="contact-text">Tech Center, Digital District</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon email"></div>
+                        <span class="contact-text">hello@devnimbus.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon phone"></div>
+                        <span class="contact-text">+1 (555) 123-4567</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                &copy; 2025 DEVNIMBUS. All Rights Reserved.
+            </div>
+            <div class="footer-legal">
+                <a href="terms.html">Terms of Service</a>
+                <span class="separator">|</span>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
